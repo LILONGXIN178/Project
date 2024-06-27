@@ -1,0 +1,43 @@
+<p><strong>New Features &amp; Enhancements:</strong></p>
+
+<ul>
+	<li>Implemented&nbsp;new and more secured encryption algorithm to work with new version of Plus Utility (V2.4.3 or higher).&nbsp;</li>
+</ul>
+
+<p><span style="color:#ff0000;"><strong>WARNING:</strong></span></p>
+
+<ol>
+	<li style="font-weight:bold;"><strong>After GS105Ev2 is upgraded to FW version V1.5.0.4 or higher, it cannot work with Plus Utility version prior to V</strong><strong>2.4.3.<br />
+	&nbsp;Please download the latest Plus Utility from </strong><strong><a href="http://www.netgear.com/support/product/PCU">http://www.netgear.com/support/product/PCU</a></strong></li>
+	<li style="font-weight:bold;"><strong>Once GS105Ev2 FW has been upgraded to V1.5.0.4, you need to login to web GUI to upgrade boot loader. GS105Ev2 has 2 different chip versions and they have different boot loader version. Firmware will detect the IC version automatically and prompt you for the required boot loader version on the upgrade GUI page.</strong></li>
+</ol>
+
+<p><strong>Upgrade Procedure:</strong></p>
+
+<ol>
+	<li>Download the new firmware 1.5.0.4 from NETGEAR product support Website and store it in local PC, and remember its location in the PC&rsquo;s file system. Unzip it to get the switch firmware image &ldquo;<strong>GS105Ev2_V1.5.0.4.bin</strong>&rdquo;.
+
+	<p><strong>Download Link:</strong>&nbsp;<u><a href="http://www.downloads.netgear.com/files/GDC/GS105EV2/GS105Ev2_V1.5.0.4.zip" target="_blank">http://www.downloads.netgear.com/files/GDC/GS105EV2/GS105Ev2_V1.5.0.4.zip</a></u></p>
+	</li>
+	<li>There are two methods to upgrade the new firmware from PC to the switch.
+	<ul>
+		<li>HTTP</li>
+		<li>ProSAFE Plus Utility</li>
+	</ul>
+
+	<p>Below are the steps to upgrade the firmware via <strong>HTTP</strong>, which is the most convenient method. For the other method, please check the IG and SW User Manual for details.</p>
+	</li>
+	<li>To use <strong>HTTP</strong> method, go to GUI page &ldquo;Maintenance &gt; Firmware Upgrade&quot;.</li>
+	<li>Click <strong>Enter Loader Mode</strong> button and it will go to Firmware Upgrade page.</li>
+	<li>Click the <strong>Browse</strong> button and locate and select the new firmware image file &ldquo;GS105Ev2_V1.5.0.4.bin&rdquo;.</li>
+	<li>Click the <strong>Apply</strong> button.</li>
+	<li>When the upgrade is complete, your switch restarts. The upgrade process typically takes about three minutes.</li>
+	<li>Once FW upgrading completes, please login to switch by web GUI to upgrade boot loader.</li>
+	<li>When login to the switch, it will go to Bootloader Upgrade page.</li>
+	<li>It will show which boot loader version you should use and click <strong>Browse</strong> button and locate and select the correct boot loader version and click APPLY.</li>
+	<li>Once boot loader upgrading is complete, the switch will go back to login page. &nbsp;</li>
+</ol>
+
+<p><span style="color:#ff0000;"><strong>WARNING:</strong></span></p>
+
+<p><strong>To avoid the risk of corrupting the firmware, do not interrupt the upgrade. For example, do not turn off the switch or disconnect it.</strong></p>
